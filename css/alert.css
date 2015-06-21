@@ -1,0 +1,30 @@
+.alert {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	padding: 1em 0;
+}
+
+.alert .address {
+	color: #424242;
+}
+
+.alert .name {
+	font-size: 1.5em;
+}
+
+.alert .status {
+	background-color: #eeeeee;
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+}
+
+.alert.offline .status {
+	background-color: #ff0000;
+}
+
+.alert.online .status {
+	background-color: #00ff00;
+}
